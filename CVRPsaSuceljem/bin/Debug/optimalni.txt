@@ -1,6 +1,7 @@
 graph{
-resolution=500;
+resolution=1000;
 1[
+label ="" 
 pos = "492,456!"
 width = 0.002
 height = 0.002
@@ -9,8 +10,8 @@ fontsize = 8
 color =red
 penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = ""
 ]
-resolution=500;
 22[
+label ="" 
 pos = "588,84!"
 width = 0.002
 height = 0.002
@@ -19,8 +20,8 @@ fontsize = 8
 color =red
 shape = point
 ]
-resolution=500;
 32[
+label ="" 
 pos = "588,30!"
 width = 0.002
 height = 0.002
@@ -29,8 +30,8 @@ fontsize = 8
 color =red
 shape = point
 ]
-resolution=500;
 20[
+label ="" 
 pos = "558,18!"
 width = 0.002
 height = 0.002
@@ -39,8 +40,8 @@ fontsize = 8
 color =red
 shape = point
 ]
-resolution=500;
 18[
+label ="" 
 pos = "546,12!"
 width = 0.002
 height = 0.002
@@ -49,8 +50,8 @@ fontsize = 8
 color =red
 shape = point
 ]
-resolution=500;
 14[
+label ="" 
 pos = "504,150!"
 width = 0.002
 height = 0.002
@@ -59,8 +60,8 @@ fontsize = 8
 color =red
 shape = point
 ]
-resolution=500;
 8[
+label ="" 
 pos = "504,234!"
 width = 0.002
 height = 0.002
@@ -69,8 +70,8 @@ fontsize = 8
 color =red
 shape = point
 ]
-resolution=500;
 27[
+label ="" 
 pos = "480,330!"
 width = 0.002
 height = 0.002
@@ -79,18 +80,8 @@ fontsize = 8
 color =red
 shape = point
 ]
-resolution=500;
-1[
-pos = "492,456!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = ""
-]
-resolution=500;
 13[
+label ="" 
 pos = "588,312!"
 width = 0.002
 height = 0.002
@@ -99,8 +90,8 @@ fontsize = 8
 color =navy
 shape = point
 ]
-resolution=500;
 2[
+label ="" 
 pos = "576,264!"
 width = 0.002
 height = 0.002
@@ -109,8 +100,8 @@ fontsize = 8
 color =navy
 shape = point
 ]
-resolution=500;
 17[
+label ="" 
 pos = "528,306!"
 width = 0.002
 height = 0.002
@@ -119,8 +110,8 @@ fontsize = 8
 color =navy
 shape = point
 ]
-resolution=500;
 31[
+label ="" 
 pos = "510,360!"
 width = 0.002
 height = 0.002
@@ -129,18 +120,8 @@ fontsize = 8
 color =navy
 shape = point
 ]
-resolution=500;
-1[
-pos = "492,456!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =navy
-penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = ""
-]
-resolution=500;
 28[
+label ="" 
 pos = "342,414!"
 width = 0.002
 height = 0.002
@@ -149,8 +130,8 @@ fontsize = 8
 color =green
 shape = point
 ]
-resolution=500;
 25[
+label ="" 
 pos = "366,372!"
 width = 0.002
 height = 0.002
@@ -159,18 +140,8 @@ fontsize = 8
 color =green
 shape = point
 ]
-resolution=500;
-1[
-pos = "492,456!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =green
-penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = ""
-]
-resolution=500;
 30[
+label ="" 
 pos = "120,420!"
 width = 0.002
 height = 0.002
@@ -179,8 +150,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 19[
+label ="" 
 pos = "114,192!"
 width = 0.002
 height = 0.002
@@ -189,8 +160,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 9[
+label ="" 
 pos = "84,144!"
 width = 0.002
 height = 0.002
@@ -199,8 +170,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 10[
+label ="" 
 pos = "12,234!"
 width = 0.002
 height = 0.002
@@ -209,8 +180,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 23[
+label ="" 
 pos = "30,252!"
 width = 0.002
 height = 0.002
@@ -219,8 +190,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 16[
+label ="" 
 pos = "6,390!"
 width = 0.002
 height = 0.002
@@ -229,8 +200,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 11[
+label ="" 
 pos = "18,492!"
 width = 0.002
 height = 0.002
@@ -239,8 +210,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 26[
+label ="" 
 pos = "54,582!"
 width = 0.002
 height = 0.002
@@ -249,8 +220,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 6[
+label ="" 
 pos = "174,534!"
 width = 0.002
 height = 0.002
@@ -259,8 +230,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
 21[
+label ="" 
 pos = "300,558!"
 width = 0.002
 height = 0.002
@@ -269,18 +240,8 @@ fontsize = 8
 color =pink
 shape = point
 ]
-resolution=500;
-1[
-pos = "492,456!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =pink
-penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = ""
-]
-resolution=500;
 15[
+label ="" 
 pos = "366,354!"
 width = 0.002
 height = 0.002
@@ -289,8 +250,8 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-resolution=500;
 29[
+label ="" 
 pos = "138,90!"
 width = 0.002
 height = 0.002
@@ -299,8 +260,8 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-resolution=500;
 12[
+label ="" 
 pos = "30,60!"
 width = 0.002
 height = 0.002
@@ -309,8 +270,8 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-resolution=500;
 5[
+label ="" 
 pos = "78,42!"
 width = 0.002
 height = 0.002
@@ -319,8 +280,8 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-resolution=500;
 24[
+label ="" 
 pos = "252,54!"
 width = 0.002
 height = 0.002
@@ -329,8 +290,8 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-resolution=500;
 4[
+label ="" 
 pos = "294,48!"
 width = 0.002
 height = 0.002
@@ -339,8 +300,8 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-resolution=500;
 3[
+label ="" 
 pos = "300,30!"
 width = 0.002
 height = 0.002
@@ -349,8 +310,8 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-resolution=500;
 7[
+label ="" 
 pos = "348,180!"
 width = 0.002
 height = 0.002
@@ -358,16 +319,6 @@ fixedsize=true
 fontsize = 8
 color =yellow
 shape = point
-]
-resolution=500;
-1[
-pos = "492,456!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =yellow
-penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = ""
 ]
 1 -- 22[penwidth = 0.099, color="red"]
 22 -- 32[penwidth = 0.099, color="red"]

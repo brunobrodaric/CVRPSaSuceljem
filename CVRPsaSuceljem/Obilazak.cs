@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics;
 
+
 namespace CVRP1
 {
     class Obilazak
@@ -165,25 +166,31 @@ namespace CVRP1
         {
             System.IO.StreamWriter file = new System.IO.StreamWriter(fileName + ".txt");
 
-            string[] boje = { "red", "navy", "green", "pink", "yellow", "tomato", "blue", "purple", "teal", "black", "violet", "crimson" };
+            string[] boje = { "red", "navy", "green", "pink", "yellow", "tomato", "blue", "purple", "orange", "black", "violet", "crimson" };
 
             int brojBoje = 0;
             bool nijePocetakObilaska = false;
             file.WriteLine("graph{");
+            file.WriteLine("resolution=1000;");
             foreach (var cvor in this.put)
             {
-                file.WriteLine("resolution=500;");
+                if (cvor.oznaka == 1 && nijePocetakObilaska) { brojBoje++; continue; } else { nijePocetakObilaska = true; }
+                
                 file.WriteLine(cvor.oznaka + "[");
-              //  file.WriteLine("label = " + cvor.oznaka);
-                file.WriteLine("pos = \"" + cvor.x * 6 + "," + cvor.y * 6 + "!\"");
+                file.WriteLine("label =\"\" ");
+                file.WriteLine("pos = \"" + cvor.x *6 + "," + cvor.y *6 + "!\"");
                 file.WriteLine("width = 0.002");
                 file.WriteLine("height = 0.002");
                 file.WriteLine("fixedsize=true");
                 file.WriteLine("fontsize = 8");
                 file.WriteLine("color =" + boje[brojBoje]);
-                if (cvor.oznaka == 1) file.WriteLine("penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = \"\""); else file.WriteLine("shape = point");
+
+                if (cvor.oznaka == 1) 
+                    file.WriteLine("penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = \"\""); 
+                else file.WriteLine("shape = point");
+                
                 file.WriteLine("]");
-                if (cvor.oznaka == 1 && nijePocetakObilaska) brojBoje++; else { nijePocetakObilaska = true; }
+                
             }
 
             brojBoje = 0;
@@ -196,9 +203,11 @@ namespace CVRP1
 
             file.WriteLine("}");
             file.Close();
+            System.Threading.Thread.Sleep(5000);
             ProcessStartInfo startInfo = new ProcessStartInfo("dot.exe");
-            startInfo.Arguments = "-Kneato -Goverlap=scaling -Tpng " + fileName + ".txt -o " + fileName + ".png";
-            Process.Start(startInfo);
+            startInfo.Arguments = "-Kneato -Goverlap=prism -Tpng " + fileName + ".txt -o " + fileName + ".png";
+            var proces = Process.Start(startInfo);
+            proces.WaitForExit();          
         }
 
     }

@@ -29,9 +29,12 @@ namespace CVRPsaSuceljem
             
         }
 
+        Form2 f2 = new Form2();
+
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-            Form2 f2 = new Form2();
+            
+            f2.otac = this;
             this.Hide();
             f2.Show();
         }

@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using CVRP1;
+using System.Diagnostics;
 
 namespace CVRPsaSuceljem
 {
     public partial class Form2 : Form
     {
+        public Form1 otac;
+
         public Form2()
         {
             InitializeComponent();
@@ -22,6 +25,20 @@ namespace CVRPsaSuceljem
             textBox5.Text = "5";
             textBox6.Text = "0.1";
             textBox7.Text = "100";
+            label10.Text = " ";
+            label9.Text = " ";
+            label11.Text = " ";
+            label12.Text = " ";
+            ToolTip toolTip1 = new ToolTip();
+            toolTip1.ShowAlways = true;
+            toolTip1.SetToolTip(label1, "Manji α znači veću važnost udaljenosti gradova.");
+            toolTip1.SetToolTip(label2, "Manji β znači veću važnost feromonskih tragova.");
+            toolTip1.SetToolTip(label3, "Manji γ znači veću važnost heuristike d(i,0) + d(0,j) - d(i,j)");
+            toolTip1.SetToolTip(label4, "Manji λ znači veću važnost iskoristivnosti kapaciteta.");
+            toolTip1.SetToolTip(label5, "Veći parametar evaporacije znači veću sklonost istraživanju novih rješenja.");
+            toolTip1.SetToolTip(label6, "Broj mrava koji u svakoj iteraciji traže rješenja.");
+            toolTip1.SetToolTip(label4, "Manji λ znači veću važnost iskoristivnosti kapaciteta.");
+            toolTip1.SetToolTip(label7, "Ukupni broj iteracija.");
         }
 
         OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -38,7 +55,6 @@ namespace CVRPsaSuceljem
         private void button1_Click(object sender, EventArgs e)
         {
             backgroundWorker1.RunWorkerAsync();
-            
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -356,7 +372,9 @@ namespace CVRPsaSuceljem
             }
 
             Obilazak o = globalniNajboljiPut;
+            System.Threading.Thread.Sleep(1000);
             o.nacrtaj("nacrtaj");
+            
             string optimalnoDatoteka = fileName.Substring(0, fileName.Length - 4) + ".opt";
             System.IO.StreamReader file = new System.IO.StreamReader(optimalnoDatoteka);
             Obilazak optimalniObilazak = new Obilazak();
@@ -378,14 +396,19 @@ namespace CVRPsaSuceljem
             }
             
             file.Close();
-
+            
+            
+            optimalniObilazak.nacrtaj("optimalni");
             System.Threading.Thread.Sleep(1000);
-
-            optimalniObilazak.nacrtaj("optimalni"); 
-
-            System.Threading.Thread.Sleep(1000);
+            
             pictureBox1.ImageLocation = @"C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\nacrtaj.png";
+           // pictureBox1.Refresh();
             pictureBox2.ImageLocation = @"C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\optimalni.png";
+           // pictureBox2.Refresh();
+            label9.Text = "Duljina puta: ";
+            label10.Text = globalniNajboljiPut.duljinaObilaska().ToString();
+            label12.Text = "Duljina puta: ";
+            label11.Text = optimalniObilazak.duljinaObilaska().ToString();
         }
 
         private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
@@ -393,7 +416,33 @@ namespace CVRPsaSuceljem
             // Change the value of the ProgressBar to the BackgroundWorker progress.
 	    progressBar1.Value = e.ProgressPercentage;
 	    // Set the text.
-        this.Text = e.ProgressPercentage.ToString();
+        if (e.ProgressPercentage == 100) 
+            this.Text = "CVRP Solver";
+        else
+            this.Text = "CVRP Solver (" + e.ProgressPercentage.ToString() + "%)";
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //otac.Close();
+            
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           
+        }
+
+        
+
+        private void label1_MouseHover(object sender, EventArgs e)
+        {
+
         }
     }
 }
