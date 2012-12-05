@@ -125,22 +125,6 @@ namespace CVRP1
             else return null;
         }
 
-        /**********************************************************************************************************************
-         * glavna funkcija, trazi najkrace rjesenje.                                         
-         * vraca najbolje rjesenje koje je nasla.                                                                  
-         * brojMrava je broj mrava koji u svakoj iteraciji idu konstruirati rjesenje.
-         * alfa i beta su parametri iz formule pomocu koje odredjujemo vjerojatnost odabira pojednog vrha kao iduceg;
-         * sto manji alfa, to veci efekt udaljenosti gradova. sto manji beta, to veci efekt feromonski tragova;
-         * parametarEvaporacije je izmedju 0 i 1. vrijednost 1 bi znacila da feromoni potpuno isparavaju nakon svake iteracije.
-         * kolikoIteracija je broj iteracija koje ce funkcija izvrsiti. ako je postavljen na nulu, broj iteracija je beskonacno;
-         * ako je postavljen na negativan broj, program se vrti sve dok -kolikoIteracija iteracija ne nadjemo bolje rjesenje.
-         *************************************************************************************************************************/
-       /* public static Obilazak nadjiRjesenje(string fileName, int brojMrava = 25, double alfa = 1, double beta = 5, double gama = 5, double lambda = 5,
-            double parametarEvaporacije = 0.1, long kolikoIteracija = 100)
-        {
-   
-        }
-        */
         public Obilazak optimalniObilazak(string instanca, string optimalnoRjesenje)
         {
             TestniPodaci podaci = new TestniPodaci(instanca);
@@ -176,10 +160,10 @@ namespace CVRP1
 
         // funkcija za crtanje rjesenja... potrebno imati instaliran graphviz
         // uglavnom, skoro sve je podesivo, guglati npr. graphviz attributes
-        // generira sliku rjesenja "nacrtaj.png" u bin\debug folderu projekta
-        public void nacrtaj()
+        // generira sliku rjesenja (fileName.png) u bin\debug folderu projekta
+        public void nacrtaj(string fileName)
         {
-            System.IO.StreamWriter file = new System.IO.StreamWriter("nacrtaj.txt");
+            System.IO.StreamWriter file = new System.IO.StreamWriter(fileName + ".txt");
 
             string[] boje = { "red", "navy", "green", "pink", "yellow", "tomato", "blue", "purple", "teal", "black", "violet", "crimson" };
 
@@ -213,7 +197,7 @@ namespace CVRP1
             file.WriteLine("}");
             file.Close();
             ProcessStartInfo startInfo = new ProcessStartInfo("dot.exe");
-            startInfo.Arguments = "-Kneato -Goverlap=scaling -Tpng nacrtaj.txt -o nacrtaj.png";
+            startInfo.Arguments = "-Kneato -Goverlap=scaling -Tpng " + fileName + ".txt -o " + fileName + ".png";
             Process.Start(startInfo);
         }
 

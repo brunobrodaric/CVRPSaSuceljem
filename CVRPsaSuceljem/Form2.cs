@@ -356,9 +356,36 @@ namespace CVRPsaSuceljem
             }
 
             Obilazak o = globalniNajboljiPut;
-            o.nacrtaj();
-            System.Threading.Thread.Sleep(2000);
+            o.nacrtaj("nacrtaj");
+            string optimalnoDatoteka = fileName.Substring(0, fileName.Length - 4) + ".opt";
+            System.IO.StreamReader file = new System.IO.StreamReader(optimalnoDatoteka);
+            Obilazak optimalniObilazak = new Obilazak();
+            optimalniObilazak.dodajVrh(vrhovi[1]);
+            string redak = file.ReadLine();
+
+            while (true)
+            {
+                string[] rijeciURedku = redak.Split(' ');
+                int kolikoRijeci = rijeciURedku.Count();
+
+                for (int i = 2; i < kolikoRijeci; ++i)
+                {
+                    optimalniObilazak.dodajVrh(vrhovi[Convert.ToInt32(rijeciURedku[i]) + 1]);
+                }
+                optimalniObilazak.dodajVrh(vrhovi[1]);
+                redak = file.ReadLine();
+                if (redak.Split(' ').ElementAt(0) == "cost") break;
+            }
+            
+            file.Close();
+
+            System.Threading.Thread.Sleep(1000);
+
+            optimalniObilazak.nacrtaj("optimalni"); 
+
+            System.Threading.Thread.Sleep(1000);
             pictureBox1.ImageLocation = @"C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\nacrtaj.png";
+            pictureBox2.ImageLocation = @"C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\optimalni.png";
         }
 
         private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
