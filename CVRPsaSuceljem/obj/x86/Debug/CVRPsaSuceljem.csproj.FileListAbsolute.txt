@@ -1,0 +1,9 @@
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.Form1.resources
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.Properties.Resources.resources
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.csproj.GenerateResource.Cache
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\CVRPsaSuceljem.exe
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\CVRPsaSuceljem.pdb
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.exe
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.pdb
+c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.Form2.resources
+C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.csprojResolveAssemblyReference.cache
