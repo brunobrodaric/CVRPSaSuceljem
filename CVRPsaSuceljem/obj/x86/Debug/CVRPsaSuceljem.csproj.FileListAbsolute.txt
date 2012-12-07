@@ -7,3 +7,7 @@ c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\o
 c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.pdb
 c:\users\b\documents\visual studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.Form2.resources
 C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.csprojResolveAssemblyReference.cache
+C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\CVRPsaSuceljem.exe.manifest
+C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\CVRPsaSuceljem.application
+C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.exe.manifest
+C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\obj\x86\Debug\CVRPsaSuceljem.application

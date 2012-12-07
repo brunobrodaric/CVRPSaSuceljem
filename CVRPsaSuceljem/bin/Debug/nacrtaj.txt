@@ -2,7 +2,7 @@ graph{
 resolution=1000;
 1[
 label ="" 
-pos = "492,456!"
+pos = "29,33!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -10,9 +10,9 @@ fontsize = 8
 color =red
 penwidth = 0.1, color = black, shape = box, width = 0.07, height = 0.07, label = ""
 ]
-26[
+2[
 label ="" 
-pos = "54,582!"
+pos = "41,11!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -20,79 +20,9 @@ fontsize = 8
 color =red
 shape = point
 ]
-11[
+31[
 label ="" 
-pos = "18,492!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-shape = point
-]
-6[
-label ="" 
-pos = "174,534!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-shape = point
-]
-16[
-label ="" 
-pos = "6,390!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-shape = point
-]
-30[
-label ="" 
-pos = "120,420!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-shape = point
-]
-10[
-label ="" 
-pos = "12,234!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-shape = point
-]
-23[
-label ="" 
-pos = "30,252!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-shape = point
-]
-21[
-label ="" 
-pos = "300,558!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =red
-shape = point
-]
-9[
-label ="" 
-pos = "84,144!"
+pos = "48,12!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -102,7 +32,7 @@ shape = point
 ]
 19[
 label ="" 
-pos = "114,192!"
+pos = "48,12!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -110,9 +40,9 @@ fontsize = 8
 color =red
 shape = point
 ]
-27[
+21[
 label ="" 
-pos = "480,330!"
+pos = "46,16!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -120,9 +50,39 @@ fontsize = 8
 color =red
 shape = point
 ]
-12[
+43[
 label ="" 
-pos = "30,60!"
+pos = "42,18!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =red
+shape = point
+]
+37[
+label ="" 
+pos = "30,20!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =red
+shape = point
+]
+41[
+label ="" 
+pos = "36,28!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =red
+shape = point
+]
+4[
+label ="" 
+pos = "91,27!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -130,9 +90,19 @@ fontsize = 8
 color =navy
 shape = point
 ]
-5[
+32[
 label ="" 
-pos = "78,42!"
+pos = "94,28!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =navy
+shape = point
+]
+25[
+label ="" 
+pos = "96,28!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -142,7 +112,7 @@ shape = point
 ]
 29[
 label ="" 
-pos = "138,90!"
+pos = "92,30!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -150,49 +120,9 @@ fontsize = 8
 color =navy
 shape = point
 ]
-3[
+12[
 label ="" 
-pos = "300,30!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =navy
-shape = point
-]
-24[
-label ="" 
-pos = "252,54!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =navy
-shape = point
-]
-7[
-label ="" 
-pos = "348,180!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =navy
-shape = point
-]
-4[
-label ="" 
-pos = "294,48!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =navy
-shape = point
-]
-15[
-label ="" 
-pos = "366,354!"
+pos = "92,32!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -202,7 +132,67 @@ shape = point
 ]
 22[
 label ="" 
-pos = "588,84!"
+pos = "92,34!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =navy
+shape = point
+]
+15[
+label ="" 
+pos = "96,36!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =navy
+shape = point
+]
+40[
+label ="" 
+pos = "98,34!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =navy
+shape = point
+]
+47[
+label ="" 
+pos = "45,97!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =navy
+shape = point
+]
+35[
+label ="" 
+pos = "43,99!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =navy
+shape = point
+]
+33[
+label ="" 
+pos = "43,99!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =navy
+shape = point
+]
+34[
+label ="" 
+pos = "8,42!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -210,9 +200,9 @@ fontsize = 8
 color =green
 shape = point
 ]
-20[
+36[
 label ="" 
-pos = "558,18!"
+pos = "8,42!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -220,89 +210,59 @@ fontsize = 8
 color =green
 shape = point
 ]
-32[
+44[
 label ="" 
-pos = "588,30!"
+pos = "2,50!"
 width = 0.002
 height = 0.002
 fixedsize=true
 fontsize = 8
 color =green
-shape = point
-]
-14[
-label ="" 
-pos = "504,150!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =green
-shape = point
-]
-18[
-label ="" 
-pos = "546,12!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =green
-shape = point
-]
-2[
-label ="" 
-pos = "576,264!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =green
-shape = point
-]
-31[
-label ="" 
-pos = "510,360!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =pink
-shape = point
-]
-17[
-label ="" 
-pos = "528,306!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =pink
-shape = point
-]
-13[
-label ="" 
-pos = "588,312!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =pink
-shape = point
-]
-25[
-label ="" 
-pos = "366,372!"
-width = 0.002
-height = 0.002
-fixedsize=true
-fontsize = 8
-color =pink
 shape = point
 ]
 8[
 label ="" 
-pos = "504,234!"
+pos = "1,41!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =green
+shape = point
+]
+52[
+label ="" 
+pos = "8,24!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =green
+shape = point
+]
+30[
+label ="" 
+pos = "12,22!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =green
+shape = point
+]
+45[
+label ="" 
+pos = "16,20!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =green
+shape = point
+]
+27[
+label ="" 
+pos = "47,95!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -310,9 +270,79 @@ fontsize = 8
 color =pink
 shape = point
 ]
-28[
+23[
 label ="" 
-pos = "342,414!"
+pos = "49,95!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =pink
+shape = point
+]
+18[
+label ="" 
+pos = "49,97!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =pink
+shape = point
+]
+50[
+label ="" 
+pos = "47,99!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =pink
+shape = point
+]
+16[
+label ="" 
+pos = "47,101!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =pink
+shape = point
+]
+20[
+label ="" 
+pos = "45,101!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =pink
+shape = point
+]
+14[
+label ="" 
+pos = "45,97!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =pink
+shape = point
+]
+39[
+label ="" 
+pos = "36,92!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =pink
+shape = point
+]
+24[
+label ="" 
+pos = "62,92!"
 width = 0.002
 height = 0.002
 fixedsize=true
@@ -320,40 +350,232 @@ fontsize = 8
 color =yellow
 shape = point
 ]
-1 -- 26[penwidth = 0.099, color="red"]
-26 -- 11[penwidth = 0.099, color="red"]
-11 -- 6[penwidth = 0.099, color="red"]
-6 -- 16[penwidth = 0.099, color="red"]
-16 -- 30[penwidth = 0.099, color="red"]
-30 -- 10[penwidth = 0.099, color="red"]
-10 -- 23[penwidth = 0.099, color="red"]
-23 -- 21[penwidth = 0.099, color="red"]
-21 -- 9[penwidth = 0.099, color="red"]
-9 -- 19[penwidth = 0.099, color="red"]
-19 -- 27[penwidth = 0.099, color="red"]
-27 -- 1[penwidth = 0.099, color="red"]
-1 -- 12[penwidth = 0.099, color="navy"]
-12 -- 5[penwidth = 0.099, color="navy"]
-5 -- 29[penwidth = 0.099, color="navy"]
-29 -- 3[penwidth = 0.099, color="navy"]
-3 -- 24[penwidth = 0.099, color="navy"]
-24 -- 7[penwidth = 0.099, color="navy"]
-7 -- 4[penwidth = 0.099, color="navy"]
-4 -- 15[penwidth = 0.099, color="navy"]
-15 -- 1[penwidth = 0.099, color="navy"]
-1 -- 22[penwidth = 0.099, color="green"]
-22 -- 20[penwidth = 0.099, color="green"]
-20 -- 32[penwidth = 0.099, color="green"]
-32 -- 14[penwidth = 0.099, color="green"]
-14 -- 18[penwidth = 0.099, color="green"]
-18 -- 2[penwidth = 0.099, color="green"]
-2 -- 1[penwidth = 0.099, color="green"]
-1 -- 31[penwidth = 0.099, color="pink"]
-31 -- 17[penwidth = 0.099, color="pink"]
-17 -- 13[penwidth = 0.099, color="pink"]
-13 -- 25[penwidth = 0.099, color="pink"]
-25 -- 8[penwidth = 0.099, color="pink"]
-8 -- 1[penwidth = 0.099, color="pink"]
-1 -- 28[penwidth = 0.099, color="yellow"]
-28 -- 1[penwidth = 0.099, color="yellow"]
+13[
+label ="" 
+pos = "62,94!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+51[
+label ="" 
+pos = "62,96!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+46[
+label ="" 
+pos = "56,90!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+5[
+label ="" 
+pos = "53,87!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+17[
+label ="" 
+pos = "40,92!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+10[
+label ="" 
+pos = "40,92!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+49[
+label ="" 
+pos = "34,88!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+3[
+label ="" 
+pos = "31,87!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =yellow
+shape = point
+]
+38[
+label ="" 
+pos = "16,24!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =tomato
+shape = point
+]
+48[
+label ="" 
+pos = "17,23!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =tomato
+shape = point
+]
+11[
+label ="" 
+pos = "14,20!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =tomato
+shape = point
+]
+6[
+label ="" 
+pos = "7,19!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =tomato
+shape = point
+]
+9[
+label ="" 
+pos = "8,20!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =tomato
+shape = point
+]
+28[
+label ="" 
+pos = "9,21!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =tomato
+shape = point
+]
+26[
+label ="" 
+pos = "28,22!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =blue
+shape = point
+]
+7[
+label ="" 
+pos = "27,19!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =blue
+shape = point
+]
+42[
+label ="" 
+pos = "28,26!"
+width = 0.002
+height = 0.002
+fixedsize=true
+fontsize = 8
+color =blue
+shape = point
+]
+1 -- 2[penwidth = 0.099, color="red"]
+2 -- 31[penwidth = 0.099, color="red"]
+31 -- 19[penwidth = 0.099, color="red"]
+19 -- 21[penwidth = 0.099, color="red"]
+21 -- 43[penwidth = 0.099, color="red"]
+43 -- 37[penwidth = 0.099, color="red"]
+37 -- 41[penwidth = 0.099, color="red"]
+41 -- 1[penwidth = 0.099, color="red"]
+1 -- 4[penwidth = 0.099, color="navy"]
+4 -- 32[penwidth = 0.099, color="navy"]
+32 -- 25[penwidth = 0.099, color="navy"]
+25 -- 29[penwidth = 0.099, color="navy"]
+29 -- 12[penwidth = 0.099, color="navy"]
+12 -- 22[penwidth = 0.099, color="navy"]
+22 -- 15[penwidth = 0.099, color="navy"]
+15 -- 40[penwidth = 0.099, color="navy"]
+40 -- 47[penwidth = 0.099, color="navy"]
+47 -- 35[penwidth = 0.099, color="navy"]
+35 -- 33[penwidth = 0.099, color="navy"]
+33 -- 1[penwidth = 0.099, color="navy"]
+1 -- 34[penwidth = 0.099, color="green"]
+34 -- 36[penwidth = 0.099, color="green"]
+36 -- 44[penwidth = 0.099, color="green"]
+44 -- 8[penwidth = 0.099, color="green"]
+8 -- 52[penwidth = 0.099, color="green"]
+52 -- 30[penwidth = 0.099, color="green"]
+30 -- 45[penwidth = 0.099, color="green"]
+45 -- 1[penwidth = 0.099, color="green"]
+1 -- 27[penwidth = 0.099, color="pink"]
+27 -- 23[penwidth = 0.099, color="pink"]
+23 -- 18[penwidth = 0.099, color="pink"]
+18 -- 50[penwidth = 0.099, color="pink"]
+50 -- 16[penwidth = 0.099, color="pink"]
+16 -- 20[penwidth = 0.099, color="pink"]
+20 -- 14[penwidth = 0.099, color="pink"]
+14 -- 39[penwidth = 0.099, color="pink"]
+39 -- 1[penwidth = 0.099, color="pink"]
+1 -- 24[penwidth = 0.099, color="yellow"]
+24 -- 13[penwidth = 0.099, color="yellow"]
+13 -- 51[penwidth = 0.099, color="yellow"]
+51 -- 46[penwidth = 0.099, color="yellow"]
+46 -- 5[penwidth = 0.099, color="yellow"]
+5 -- 17[penwidth = 0.099, color="yellow"]
+17 -- 10[penwidth = 0.099, color="yellow"]
+10 -- 49[penwidth = 0.099, color="yellow"]
+49 -- 3[penwidth = 0.099, color="yellow"]
+3 -- 1[penwidth = 0.099, color="yellow"]
+1 -- 38[penwidth = 0.099, color="tomato"]
+38 -- 48[penwidth = 0.099, color="tomato"]
+48 -- 11[penwidth = 0.099, color="tomato"]
+11 -- 6[penwidth = 0.099, color="tomato"]
+6 -- 9[penwidth = 0.099, color="tomato"]
+9 -- 28[penwidth = 0.099, color="tomato"]
+28 -- 1[penwidth = 0.099, color="tomato"]
+1 -- 26[penwidth = 0.099, color="blue"]
+26 -- 7[penwidth = 0.099, color="blue"]
+7 -- 42[penwidth = 0.099, color="blue"]
+42 -- 1[penwidth = 0.099, color="blue"]
 }

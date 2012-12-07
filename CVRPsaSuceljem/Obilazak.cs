@@ -178,7 +178,7 @@ namespace CVRP1
                 
                 file.WriteLine(cvor.oznaka + "[");
                 file.WriteLine("label =\"\" ");
-                file.WriteLine("pos = \"" + cvor.x *6 + "," + cvor.y *6 + "!\"");
+                file.WriteLine("pos = \"" + cvor.x  + "," + cvor.y + "!\"");
                 file.WriteLine("width = 0.002");
                 file.WriteLine("height = 0.002");
                 file.WriteLine("fixedsize=true");
@@ -203,9 +203,9 @@ namespace CVRP1
 
             file.WriteLine("}");
             file.Close();
-            System.Threading.Thread.Sleep(5000);
+            
             ProcessStartInfo startInfo = new ProcessStartInfo("dot.exe");
-            startInfo.Arguments = "-Kneato -Goverlap=prism -Tpng " + fileName + ".txt -o " + fileName + ".png";
+            startInfo.Arguments = "-Kneato -Goverlap=prism -s1 -Tpng " + fileName + ".txt -o " + fileName + ".png";
             var proces = Process.Start(startInfo);
             proces.WaitForExit();          
         }

@@ -24,9 +24,8 @@ namespace CVRPsaSuceljem
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             Form2 f2 = new Form2();
-            this.Hide();
             f2.Show();
-            
+            this.Hide();
         }
 
         Form2 f2 = new Form2();
@@ -35,8 +34,9 @@ namespace CVRPsaSuceljem
         {
             
             f2.otac = this;
-            this.Hide();
+            
             f2.Show();
+            this.Hide();
         }
     }
 }

@@ -388,6 +388,7 @@ namespace CVRPsaSuceljem
 
                 for (int i = 2; i < kolikoRijeci; ++i)
                 {
+                    if (rijeciURedku[i] == "") continue;
                     optimalniObilazak.dodajVrh(vrhovi[Convert.ToInt32(rijeciURedku[i]) + 1]);
                 }
                 optimalniObilazak.dodajVrh(vrhovi[1]);
@@ -402,9 +403,9 @@ namespace CVRPsaSuceljem
             System.Threading.Thread.Sleep(1000);
             
             pictureBox1.ImageLocation = @"C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\nacrtaj.png";
-           // pictureBox1.Refresh();
+           
             pictureBox2.ImageLocation = @"C:\Users\b\Documents\Visual Studio 2010\Projects\CVRPsaSuceljem\CVRPsaSuceljem\bin\Debug\optimalni.png";
-           // pictureBox2.Refresh();
+          
             label9.Text = "Duljina puta: ";
             label10.Text = globalniNajboljiPut.duljinaObilaska().ToString();
             label12.Text = "Duljina puta: ";
@@ -429,13 +430,13 @@ namespace CVRPsaSuceljem
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            //otac.Close();
+            Application.Exit();
             
         }
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
-           
+            //otac.Close();
         }
 
         
